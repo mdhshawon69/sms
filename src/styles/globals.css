@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&family=Monsieur+La+Doulaise&family=Montserrat:wght@100;200;400;500;600;700&family=Poppins:wght@100;200;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f2fbfa;
+}
+
+.Mui-selected {
+    background: #1EB3A6!important;
+    color: #fff!important;
+}
+
+.swal-button, .swal-button--confirm {
+    background: #1EB3A6!important;
+    color: #fff!important;
+}
+
+
+.Calendar {
+  --cl-color-black: #444444;
+  --cl-color-disabled: #d4d4d4;
+  --cl-color-error: #ff2929;
+  font-size: 10px;
+  background: #fff;
+  box-shadow: 0 1em 4em rgba(0, 0, 0, 0.07);
+  border-radius: 1em;
+  position: relative;
+  user-select: none;
+  padding-top: 1.2em;
+  display: flex;
+  flex-direction: column;
+  width: 100%!important;
+  height: 100%!important;
+  z-index: 10;
+  max-width: 90vw;
+  min-height: 36.7em;
+}
+
+.custom-today-day {
+  color: #fff !important;
+  background-color: #ff9900;
+}
+
+.Calendar__weekRow {
+  display: flex;
+  width: 100%;
+  height: 55px!important;
+}
+
+.Calendar__sectionWrapper {
+  position: relative;
+  height: 100%!important;
+  overflow: hidden;
+}
+
+#wrap {
+    width: 1060px;
+    height: 900px;
+    padding: 0;
+}
+#scaled-frame {
+    width: 1330px;
+    height: 675px;
+    border: 0px;
+}
+#scaled-frame {
+    zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #scaled-frame {
+        zoom: 1;
+    }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-primary {
+        background-color: rgba(91, 192, 183, 1);
+    }
+
+    .heading-polygon {
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+
+    .file input[type="file"] {
+        display: none
+    }
+
+    .bg-navbar {
+        background: rgba(228, 217, 217, 0.1);
+    }
+
+    .banner-height {
+        height: calc(100vh - 125px)
+    }
+
+    .btn-polygon {
+        clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .text-primary-color {
+        color: #1EB3A6;
+    }
+
+    .bg-navbar-2 {
+        background: rgba(30, 179, 166, 0.2);
+    }
+
+    .text-hover {
+        color: rgba(1, 84, 77, 1);
+        transition: all ease 0.3s;
+    }
+
+    .secondary-text {
+        color: #1EB3A6;
+    }
+
+    .text-latest-news-color {
+        color: #0D1530CC;
+    }
+
+    .file input[type="file"] {
+        display: none
+    }
+
+    .bg-yellow {
+        background-color: rgba(255, 153, 0, 1)
+    }
+
+    .triangle-clip-path {
+        clip-path: polygon(100% 0, 0 0, 51% 100%);
+    }
+
+    .table-polygon {
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+    
+
+}
